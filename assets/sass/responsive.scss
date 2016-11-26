@@ -1,0 +1,1490 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Aug 5, 2016, Aug 5, 2016 2:06:57 PM
+    Author     : Russ
+*/
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:375px iPhone6 Portrait
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:375px){
+    .homeSection, .defaultSection{
+        .first{
+          .landingTitle{
+            margin-top:10em;
+          }
+        }//first
+        .second {
+            .blueline{
+              height: 9em;
+            }
+            .newsEventsArea{
+                .socialTags{
+                    ul{
+                        li{
+                            padding:1em 0;
+                        }
+                    }
+                }
+            }
+            .pastWorkBox{
+              h2{
+                font-size: 2.5em;
+                padding-top: .4em;
+              }
+            }
+            
+        }//second
+    }//homeSection
+    
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:400px  iPhone6 Plus Portrait
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:400px){
+    .homeSection, .defaultSection{
+        .first{
+          .arrows{
+            top:35em;
+          }
+        }//first
+        .second {
+            .blueline{
+              height: 110px;
+            }
+            .portfolioArea {
+                .logoPost {
+                    .logoBorder{
+                        margin:0 2em;
+                    }
+                }
+            }//portfolioArea
+
+      }//second
+
+
+    }//homeSection
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:568px   iPhone5 Landscape
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:568px){
+    
+    
+    .homeSection, .defaultSection {
+        h1{
+            margin-top:0;
+            margin-left:3%;
+        }
+        .first {
+            .landingTitle{
+                top:11em;
+                margin-top:0;
+                span{
+                    width:40%;
+                    margin: -.9em auto.5em auto;
+                }
+            }
+            .blueBox{
+                top:11em;
+            }
+            .arrows{
+                top:12em;
+                width:14%;
+
+            }
+        }//first
+        .second{
+            .blueline{
+                height:148px;
+            }
+            
+            .vehicleWraps{
+                @include span-columns(8);
+                @include shift(2);
+                h3{
+                    font-size: 1.2em;
+                    margin-bottom: 0;
+                }
+                h2{
+                    font-size: 3em;
+                    margin-bottom: .3em;
+                }
+                p{
+                    padding: 0px 5em;
+                    margin-bottom: 4em;
+                }
+            }
+            .portfolioArea{
+
+                .commercialSection{
+                    @include span-columns(4);
+                    .commercialPost{
+                        padding:1em;
+                    }
+                    .Title{
+                        background-size: contain;
+                        width:80%;
+                        display: block;
+                        margin:0 auto;
+                        h2{
+                            font-size: 1.5em;
+                            padding-top: .3em;
+                        }
+                    }
+                }
+                .trailerTruckSection{
+                    @include span-columns(4);
+                    .trailerTruckPost{
+                         padding:1em;
+                    }
+                    .Title{
+                        background-size: contain;
+                        width:80%;
+                        display: block;
+                        margin:0 auto;
+                        h2{
+                            font-size: 1.5em;
+                            padding-top: .3em;
+                        }
+                    }
+                }
+                .fleetSection{
+                    @include span-columns(4);
+                    @include omega();
+                    .fleetPost{
+                         padding:1em;
+                    }
+                    .Title{
+                        background-size: contain;
+                        width:80%;
+                        display: block;
+                        margin:0 auto;
+                        h2{
+                            font-size: 1.5em;
+                            padding-top: .3em;
+                        }
+                    }
+                }
+                .specialtySection{
+                    @include span-columns(4);
+                    .specialtyPost{
+                        padding:1em;
+                    }
+                    .Title{
+                        background-size: contain;
+                        width:80%;
+                        display: block;
+                        margin:0 auto;
+                        h2{
+                            font-size: 1.5em;
+                            padding-top: .3em;
+                        }
+                    }
+                }
+                .colorSection{
+                    @include span-columns(4);
+                    .colorPost{
+                        padding:1em;
+                    }
+                    .Title{
+                        background-size: contain;
+                        width:80%;
+                        display: block;
+                        margin:0 auto;
+                        h2{
+                            font-size: 1.5em;
+                            padding-top: .3em;
+                        }
+                    }
+                }
+                .logoSection{
+                    @include span-columns(4);
+                    @include omega();
+                    .logoPost{
+                        padding:1em 0 0 0;
+                        .logoBorder{
+                            margin:0 1em 1em 1em;
+                            height:9em;
+                            h2{
+                                  font-size:1em;
+                                  margin-bottom:.1em;
+                            }
+                        }
+                    }
+                    .Title{
+                        background-size: contain;
+                        width:80%;
+                        display: block;
+                        margin:0 auto;
+                        h2{
+                            font-size: 1.5em;
+                            padding-top: .3em;
+                        }
+                    }
+                }
+            }//portfolioArea
+            .contactSpot{
+                h2{
+                    font-size: 2.5em;
+                    margin-bottom: .1em;
+                }
+            }
+            .pastWorkBox{
+                h2{
+                    font-size: 3.5em;
+                    padding-top: .1em;
+                }
+            }
+            .pastWorkPostTitle{
+                height: 21em;
+                h2{
+                    font-size:3em;
+                    margin-bottom: .1em;
+                }
+                h3{
+                    font-size: 1.5em;
+                }
+            }
+            .missionArea{
+                button{
+                    position: relative;
+                    top:3em;
+                }
+            }
+            .newsEventsArea{
+                .socialTags {
+                    ul {
+                       li {
+                            padding:1.3em 0;
+                            a{
+                                font-size:2em;
+                            }
+
+                        }
+                    }
+                }
+                .blogContent {
+                    span {
+                        h2 {
+                            font-size: 1.5em;
+                        }
+                    }
+                }
+                .entry-date{
+                    span.date{
+                        font-size: 12em;
+                    }
+                    span.month{
+                        font-size: 2.7em;
+                    }
+                
+
+                }
+            }
+            .followUsArea{
+                .instagramLink{
+                    margin: 4em auto 5em auto;
+                    h2{
+                      font-size: 2em;
+                    }
+                }
+                #panel{
+                    @include span-columns(6);
+                }
+                #thumbs{
+                    @include span-columns(6);
+                    @include omega();
+                }
+                .followUsSocials{
+                    margin-top: 4em;
+                }
+            }
+            aside.rightSideSingle{
+                padding-right: 1em;
+                margin-top:1em;
+                fleetSection{
+
+                    .Title{
+                        background-size:contain;
+                        h2{
+                            font-size: 2em;
+                        }
+                    }
+                }
+                .commercialSection {
+                    .Title{
+                        background-size:contain;
+                        h2{
+                            font-size: 2em;
+                        }
+                    } 
+                }
+                .logoSection{
+                    .logoPost{
+                        .logoBorder{
+                            h2{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                    .Title{
+                        background-size:contain;
+                        h2{
+                            font-size: 2em;
+                        }
+                    }
+
+                }
+            }    
+            h1{
+                font-size: 3em;
+                
+            }
+            article.newsEventsArticle{
+                    @include span-columns(8);
+                }
+            aside.rightSideSingle{
+                @include span-columns(4);
+                @include omega();
+            }
+            .pastWorkPostTitle{
+                .rightContent{
+                    p{
+                        padding:0 3em 1em 0;
+                        line-height: 2em;
+                    }
+                    button{
+                        p{
+                            padding: .5em 2em 0 2em;
+                            line-height: 1em;
+                        }
+                    }
+                }
+            }
+            span.blueLineHeader{
+                width:63%;
+                margin-left:3%;
+                h4{
+                    font-size: 1.5em;
+                }
+            }
+            .portfolioArticle{
+                @include span-columns(8);
+            }
+            .rightSideSingle{
+                @include span-columns(4);
+            }
+            .servicesSection{
+                @include span-columns(8);
+                h1{
+                    a{
+                        display: block;
+                        margin-top: .5em;
+                    }
+                }
+            }
+            .rightSideSingle#single{
+                @include span-columns(4);
+                @include omega();
+                margin-top:10em;
+            }
+            article.wrapping{
+                @include span-columns(8);
+                .contactSpot{
+                    @include span-columns(4 of 8);
+                    margin-left: 0;
+                    clear:none;
+                    h2{
+                        font-size: 1.2em;
+                    }
+                    button{
+                        p{
+                            font-size: 1em;
+                            padding: .5em 1em 0;
+                        }
+                    }
+                }
+                .subject{
+                    @include span-columns(4 of 8);
+                    clear:none;
+                    h2{
+                        font-size: 1.2em;
+                    }
+                }
+            }
+            .wrappingRight{
+                @include span-columns(4);
+                @include omega();
+                padding: 0 1em;
+                .wrapSubjects{
+                    margin-top:-4em;
+                    button{
+                        padding:0;
+                        p{
+                            font-size: 1em;
+                        }
+                    }
+                }
+                .logoSection{
+                    margin-top:23em;
+                    .logoPost{
+                        .logoBorder{
+                            h2{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                    .Title{
+                        background-size: contain;
+                        h2{
+                            font-size: 2em;
+                        }
+                    }
+                }
+            }
+            .newSection{
+                h1{
+                    margin-left:0;
+                }
+                span{
+                    h4{
+                        font-size:1.5em;
+                    }
+                }
+            }
+            .categoryPost{
+                .leftImage{
+                    @include span-columns(4);
+                    img{
+                        margin-top: 3em;
+                    }
+                }
+                .rightContent{
+                    @include span-columns(8);
+                    @include omega();
+                }
+            }    
+        }//second
+    }//home default
+    .contactSection{
+        
+        .leftSide{
+            @include span-columns(8);
+            h1{
+                margin-left: 0;
+            }
+            span{
+                width: 100%;
+                h4{
+                    font-size: 1.5em;
+                }
+            }
+        }
+        .rightSide{
+            @include span-columns(4);
+            @include omega();
+            margin-top:8em;
+        }
+    }
+    .footerTop{
+      margin-top: 5em;
+    }
+    footer{
+      height: 15em;
+      .footerContainer{
+        .copyright{
+          position: relative;
+          bottom: -2em;
+        }
+      }
+    }
+    .newsPosts{
+        .newsContent{
+            @include span-columns(6);
+            .newsInfo{
+                .entry-date{
+                    span.month{
+                        left:-5.5em;
+                    }
+                }
+            }
+        }
+        .newsContent:nth-child(2){
+            @include omega();
+        }
+         button{
+                position: relative;
+                top: 3em;
+            }
+    }
+    .single-post{
+        .defaultSection{
+            .second{
+                aside.rightSideSingle{
+                margin-top: 13em;
+                }
+            }
+        }
+    }
+    .page-template-our-services-page {
+        .defaultSection {
+            .second {
+                span.blueLineHeader{
+                    margin-left: 3%;
+                    width: 63%;
+                    
+                }
+                h1{
+                    //margin-left: 3%;
+                }
+                .leftServices{
+                    @include span-columns(8);
+                    p{
+                        margin-left: 1em;
+                        line-height: 2em;
+                        padding-right: 6em;
+                    }
+                }
+                .rightServices{
+                    @include span-columns(4);
+                    @include omega();
+                    .contactSpot{
+                        margin:-4em auto 0 auto;
+                        width:90%;
+                        h2{
+                            font-size: 1.5em;
+                        }
+                        button{
+                            p{
+                                font-size: 1em;
+                            }
+                        }
+                    }
+                }
+                .followUsArea{
+                    .instagramLink{
+                        h2{
+                            font-size: 2em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+ }
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:660px iPhone6 Landscape
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:660px){
+  #menu_button{
+    top:.5em;
+    font-size: 2em;
+  }
+  .logo{
+    img{
+        width: 9em;
+        margin-top: -.2em;
+    }
+  }
+  .phoneLink{
+    h2{
+      a{
+        font-size: 2em;
+      }
+    }
+  }
+  .homeSection, .defaultSection{
+    .first {
+      .landingTitle{
+        h2{
+          font-size: 4em;
+        }
+      }
+      .blueBox{
+        @include span-columns(4);
+        @include shift(4);
+      }
+      .arrows{
+        top:17em;
+      }
+    }//first
+    .second {
+        .blueline{
+          height: 173px;
+        }
+        span.blueLineHeader{
+            h4{
+                font-size: 2em;
+            }
+        }
+        h1 {
+          font-size: 4.5em;
+          //margin: .2em 0 1em 0;
+        }
+        .vehicleWraps{
+          p{
+            padding:0 8em;
+          }
+        }
+        .portfolioArea {
+          .logoSection {
+            .logoPost {
+              .logoBorder{
+                height: 10.5em;
+              }
+            }//logoPost
+          }//logoSection
+        }//portfolioArea
+        .pastWorkPostTitle{
+          height: 25em;
+
+        }
+        .servicesSection{
+            h1{
+                a{
+                    font-size: 1.5em;
+                }
+            }
+            p{
+                margin: 0 5em 0 .75em;
+            }
+        }
+        .rightSideSingle#single{
+            padding:2em;
+            .logoSection{
+                .logoPost{
+                    padding:0;
+                }
+            }
+        }
+        .contactSpot{
+            margin-top: 4em;
+            button{
+                p{
+                    margin:0;
+                    padding:0 2em;
+                }
+            }
+        }
+        article.wrapping{
+            .contactSpot{
+                button{
+                    p{
+                        padding: 0em 1em 0;
+                    }
+                }
+            }
+        }
+    }//second
+  }//homeSection
+  
+  
+  .newsPosts .newsContent .newsInfo .entry-date span.month{
+         left: -7em; 
+  }
+  .page-template-our-services-page .defaultSection .second .followUsArea .instagramLink{
+      width:75%;
+  }
+  .defaultSection .second article.wrapping .contactSpot{
+          margin-top: 0em;
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:736px   iPhone6 Plus Landscape
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:736px){
+  .homeSection, .defaultSection{
+     .first {
+       .landingTitle{
+         margin-top: 4em;
+       }
+
+    }//first
+    .second{
+      .blueline{
+        height: 192px;
+      }
+      .vehicleWraps{
+        p{
+          padding:0 10em;
+        }
+      }
+      .portfolioArea {
+         .logoSection {
+           .logoPost {
+             .logoBorder{
+               height: 11.8em;
+             }
+           }
+         }
+       }
+       .pastWorkBox{
+         h2{
+           font-size: 4em;
+           padding-top:0;
+         }
+       }
+       .pastWorkPostTitle{
+         height: 27em;
+       }
+    }//second
+  }//homeSection
+  .newsPosts{
+      margin-top:3em;
+      padding:0 3em;
+      h2.postTitle{
+          font-size:2em;
+      }
+      
+      .newsContent{
+          .newsInfo{
+              h2{
+                  font-size: 1.5em;
+              }
+          }
+      }
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:768px iPad Portrait
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:768px){
+  #menu_button{
+    font-size: 3em;
+  }
+  .logo{
+    img{
+      width: 15em;
+    }
+  }
+  .phoneLink{
+    h2{
+      font-size: 1.5em;
+    }
+  }
+  #fixedHeader{
+    height:9em;
+  }
+  .homeSection, .defaultSection{
+    .first {
+      .landingTitle {
+        margin-top: 24em;
+        h2{
+          font-size: 6em;
+        }
+        h4{
+          font-size: 1.5em;
+        }
+      }
+      .blueBox{
+        p{
+          font-size: 1.5em;
+          line-height: 2em;
+          font-weight: 900;
+        }
+      }//blueBox
+      .arrows{
+        top:46em;
+        width:8%;
+      }
+    }//first
+    .second{
+      .blueline{
+        top:9em;
+        height: 200px;
+      }
+      span.blueLineHeader{
+          margin-top: 6em;
+      }
+      .vehicleWraps{
+        margin-bottom: 5em;
+        h3{
+          font-size: 1.8em;
+        }
+        h2{
+          font-size: 5em;
+        }
+        p{
+          font-size: 1.5em;
+          padding: 0 5em;
+        }
+      }
+      .portfolioArea{
+        padding: 0;
+        .logoSection{
+          .logoPost{
+            .logoBorder{
+              h2{
+                font-size: 1.4em;
+              }
+            }
+          }
+        }
+      }
+      .pastWorkBox{
+        h2{
+          font-size: 4.5em;
+          line-height: 1.1em;
+        }
+      }
+      .pastWorkPostTitle{
+        h2{
+          font-size: 4em;
+          padding-top: 2em;
+        }
+        h3{
+          font-size: 2em;
+        }
+      }
+      .missionArea{
+        .missionPost{
+          @include span-columns(6);
+          @include shift(3);
+            h2{
+              font-size: 1.5em;
+              margin-top: .2em;
+            }
+        }
+      }//missionArea
+      .newsEventsArea{
+        .socialTags{
+          margin-top:4em;
+        }
+        .blogContent{
+          span{
+            h2{
+              font-size: 2em;
+            }
+          }
+          .entry-date{
+            height: 16em;
+            span.date{
+              font-size: 19em;
+              width:90%;
+              margin:.2em auto 0 auto;
+            }
+            span.month{
+              font-size: 4em;
+            }
+          }//entry-date
+          h2{
+            font-size: 2.5em;
+            padding:0 2em;
+            margin-top:1em;
+          }
+        }
+      }
+      .followUsArea{
+        .instagramLink{
+          //background-size: cover;
+          width: 70%;
+          height: 7.5em;
+        }
+        #panel{
+          #largeImage{
+            padding:2em;
+          }
+        }
+        #thumbs{
+          margin-top: 1.5em;
+          padding:0 1.5em;
+        }
+      }//followUsArea
+      .newsEventsArticle{
+          span{
+              margin-top: 3em;
+              width:100%;
+              h4{
+                  font-size: 2em;
+                  padding-top:.2em;
+              }
+          }
+          h1{
+              a{
+                  font-size: 3em;
+              }
+          }
+          button{
+            margin: 5em auto 6em auto;
+            padding: 0 1em;
+          }
+      }
+      .pastWorkArea{
+          .pastWorkPostTitle{
+              height: 29em;
+          }
+      }
+      .pastWorkArea{
+        .pastWorkPostTitle{
+            .leftImage{
+                height: 17em;
+                margin-top: 6em;
+                img{
+                    display: block;
+                    margin: 4em auto 0 auto;
+                    
+                }
+            }
+            .rightContent{
+                h2{
+                    margin-top: 3em;
+                }
+                p{
+                    font-size: 1.2em;
+                }
+            }
+        }
+      }
+      .portfolioArticle{
+          .portfolioPost{
+              .portfolioThumb{
+                  margin-top:0;
+                  padding-left: 5em;
+              }
+          }
+      }
+      .servicesSection{
+          h1{
+              a{
+                  font-size: 2em;
+              }
+          }
+      }
+      article.wrapping{
+          p{
+              padding: 0 7em 0 2em;
+          }
+      }
+      .newSection{
+          span{
+              width:100%;
+              height:100%;
+              h4{
+                  font-size: 2em;
+              }
+          }
+      }
+      
+    }//second
+  }//homeSection
+  .defaultSection, .contactSection{
+      //margin-top:8em;
+      .leftSide{
+        margin-top: 6em;
+        span{
+            h4{
+                font-size: 2em;
+            }
+        }
+      }
+      .rightSide{
+          margin-top:12em;
+      }
+  }
+    .newsPosts .newsContent .newsInfo .entry-date span.month {
+        left: -8.5em;
+    }
+    .newSection {
+        @include span-columns(8);
+        margin-left:3%;
+        span{
+            height:5em;
+            h4{
+                font-size:2em
+            }
+        }
+        
+        h1{
+            margin-top:-.4em;
+            font-size: 4.5em;
+        }
+        p{
+            padding: 15px 6em 0 15px;
+            font-size: 1.5em;
+        }
+    }
+    .page-template-our-services-page .defaultSection .second .followUsArea .instagramLink {
+        width: 68%;
+    }
+     .page-template-our-services-page{
+        .defaultSection{
+            .second{
+                .pastWorkArea{
+                    margin-top:10em;
+                    .pastWorkPostTitle{
+                        rightContent{
+                            h2{
+                                font-size: 1.5em;
+                                margin-top: 3em;
+                            }
+                            p{
+                                font-size: 1.2em;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1024px       ipad Landscape
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1024px){
+  .homeSection, .defaultSection{
+    .first{
+      .landingTitle{
+        margin-top:18em;
+      }
+      .arrows{
+        top:30em;
+      }
+    }//first
+    .second{
+      .blueline{
+        height: 260px;
+      }
+      span.blueLineHeader{
+          width:63%;
+          margin-left: 3%;
+      }
+      h1{
+          //margin-left:3%;
+      }
+      .portfolioArea{
+        .logoSection{
+          .logoPost{
+            .logoBorder{
+              height: 16.8em;
+              h2{
+                font-size: 2em;
+                padding-top:.5em;
+              }
+            }
+          }
+        }//logoSection
+        .commercialSection{
+          .Title{
+            h2{
+              font-size: 2.5em;
+            }
+          }
+        }
+        .trailerTruckSection{
+          .Title{
+            h2{
+              font-size: 2.5em;
+            }
+          }
+        }
+        .fleetSection{
+          .Title{
+            h2{
+              font-size: 2.5em;
+            }
+          }
+        }
+        .specialtySection{
+          margin-top: 5em;
+          .Title{
+            h2{
+              font-size: 2.5em;
+            }
+          }
+        }
+        .colorSection{
+          margin-top: 5em;
+          .Title{
+            h2{
+              font-size: 2.5em;
+            }
+          }
+        }
+        .logoSection{
+          margin-top: 5em;
+          .Title{
+            h2{
+              font-size: 2.5em;
+            }
+          }
+        }
+      }//portfolioArea
+      .contactSpot{
+        margin-top:6em;
+      }
+      .pastWorkBox{
+        width:40%;
+        height: 5em;
+        margin-top: 3em;
+        h2{
+          font-size: 5em;
+        }
+      }
+      .pastWorkPostTitle{
+        height:38em;
+        h2{
+          font-size: 5em;
+          padding-top: 3em;
+        }
+        h3{
+          font-size: 2.5em;
+        }
+      }
+      .missionArea{
+        margin-top:14em;
+        .missionPost{
+          h2{
+            font-size: 2em;
+          }
+          p{
+            font-size: 1.1em;
+            padding-top: .2em;
+          }
+        }
+      }
+      .newsEventsArea{
+        .socialTags{
+          ul{
+            li{
+              padding:2.7em 0;
+            }
+          }
+        }
+        .blogContent{
+          span{
+            h2{
+              font-size: 3em;
+            }
+          }
+          .entry-date{
+            span.date{
+              font-size: 22em;
+            }
+            span.month{
+              font-size: 4.5em;
+            }
+          }
+        }//blogContent
+      }//newsEventsArea
+      .followUsArea{
+        .instagramLink{
+          margin-top:11em;
+          height: 9em;
+          h2{
+            padding-top: 1.5em;
+          }
+        }
+        .followUsSocials{
+          h2{
+            font-size: 2em;
+          }
+          .fa{
+            font-size: 2em;
+          }
+        }
+      }//followUsArea
+      article.newsEventsArticle{
+          padding:0 4em;
+          h1{
+              a{
+                  font-size: 3.5em;
+              }
+          }
+          p{
+              font-size: 1.3em;
+              padding: 0 6em 0 1em;
+          }
+          button{
+              p{
+                padding: .7em 2em 0;
+              }
+          }
+      }
+      .pastWorkArea{
+          .pastWorkPostTitle{
+              height: 38em;
+          }
+          
+      }
+      .portfolioArticle{
+          p{
+              margin-left: 3%;
+              padding-right: 6em;
+          }
+          .portfolioPost{
+              .portfolioThumb{
+                  @include span-columns(4);
+              }
+              .portfolioContent{
+                  @include span-columns(8);
+                  @include omega();
+                  p{
+                    margin: 0px 7em 0em 0.75em;
+                    padding-right: 0;    
+                  }
+              }
+          }
+      }
+      span.blueLineHeader{
+          width:66%;
+      }
+      aside.rightSideSingle{
+              padding: 0 8em 0 4em;
+              .fleetSection{
+                     margin-bottom: 5em; 
+              }
+              .commercialSection{
+                      margin-bottom: 5em;
+              }
+              .logoSection{
+                  .logoPost{
+                      padding: 0;
+                  }
+              }
+      }
+      .servicesSection{
+          h1{
+              a{
+                  font-size: 3em;
+              }
+          }
+          p{
+                  margin: 0 9em 0 2.75em;
+          }
+      }
+      .contactSpot{
+          margin-top:10em;
+      }
+    }//second
+  }//homeSection
+  .newsPosts {
+      .newsContent {
+            padding-left: 5em;
+            width:43em;
+          .newsInfo {
+              .entry-date {
+                    span.month {
+                        left: -11.5em;
+                    }
+              }
+          }
+      }
+  }
+  .page-template-our-services-page{
+        .defaultSection{
+            .second{
+                .pastWorkArea{
+                    
+                    .pastWorkPostTitle{
+                        rightContent{
+                            h2{
+                                
+                            }
+                            p{
+                                
+                            }
+                        }
+                    }
+                }
+                .followUsArea{
+                    .instagramLink{
+                        height: 9em
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1140px
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1140px){
+  .homeSection, .defaultSection{
+    .first{
+      .landingTitle{
+        h2{
+          font-size: 9em;
+        }
+        h4{
+          font-size: 2em;
+        }
+      }
+    }//first
+    .second{
+      .blueline{
+        height: 317px;
+      }
+      .vehicleWraps{
+        h3{
+          font-size: 3em;
+
+        }
+        h2{
+          font-size: 8em;
+        }
+        p{
+          font-size: 2em;
+        }
+      }//vehicleWraps
+      .portfolioArea{
+        .logoSection{
+          .logoPost{
+            .logoBorder{
+              height: 18em;
+              width:30em;
+              margin: 0 auto 1em;
+            }
+          }
+        }
+      }
+      .pastWorkPostTitle{
+        height:44em;
+      }
+      .missionArea{
+        margin-bottom: 10;
+        .missionPost{
+          p{
+            font-size: 1.5em;
+          }
+        }
+        button{
+          margin-top:3em;
+        }
+      }
+      .newsEventsArea{
+        padding-top:8em;
+      }
+    }//second
+  }//homeSection
+  .newsPosts{
+      .newsContent{
+          width:48em;
+          .newsInfo{
+              .entry-date{
+                  span.month{
+                      left:-13em;
+                  }
+              }
+              h2{
+                  font-size:2em;
+              }
+          }
+      }
+  }
+  .newSection{
+      h1{
+          font-size:6.5em;
+          margin-top:0em;
+      }
+      span{
+          h4{
+              font-size: 2.5em;
+          }
+      }
+  }
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1240px
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1240px){
+  .homeSection, .defaultSection{
+    .second{
+      .blueline{
+        height: 355px;
+      }
+      .pastWorkPostTitle{
+        height: 52em;
+      }
+      .newsEventsArea{
+        padding-top:8em;
+        .socialTags{
+          ul{
+            li{
+              padding: 3em 0;
+              a{
+                font-size: 4em;
+              }
+            }
+          }
+        }
+      }
+    }//second
+  }//homeSection
+}
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1440px
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1440px){
+  .homeSection, .defaultSection{
+    .second{
+      .blueline{
+        height: 420px;
+      }
+      .pastWorkPostTitle{
+        height: 61em;
+        h2{
+          padding-top: 5em;
+        }
+      }
+    }//second
+  }
+}
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-width:1640px
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (min-width:1640px){
+  .homeSection, .defaultSection{
+    .second{
+      .missionArea{
+        .missionPost{
+          h2{
+            font-size: 3em;
+          }
+          p{
+            font-size: 2em;
+          }
+        }
+        button{
+          margin-top: 12em;
+        }
+      }
+      .newsEventsArea{
+        padding-top:18em;
+        .socialTags{
+          ul{
+            li{
+              padding:5em 0;
+            }
+          }
+        }
+      }
+
+    }//second
+  }
+}
+
+
+
+/*-------------------------------------------------------------------------------------------*\
+    RESPONSIVE      min-resolution:144dpi
+\*--------------------------------------------------------------------------------------------*/
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
